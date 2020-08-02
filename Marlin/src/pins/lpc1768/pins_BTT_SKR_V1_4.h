@@ -88,7 +88,7 @@
   #endif
 #else
   #ifndef Z_STOP_PIN
-    #define Z_STOP_PIN                     P1_27  // Z-STOP
+    #define Z_STOP_PIN                     P0_10  // Z-STOP
   #endif
 #endif
 
@@ -96,7 +96,7 @@
 // Z Probe (when not Z_MIN_PIN)
 //
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                  P0_10
+  #define Z_MIN_PROBE_PIN                  P1_27
 #endif
 
 //
@@ -157,7 +157,7 @@
   #define E1_CS_PIN                        P1_01
 #endif
 
-#define TEMP_1_PIN                      P0_23_A0  // A2 (T2) - (69) - TEMP_1_PIN
+#define TEMP_1_PIN                      P0_24_A1  // A2 (T2) - (69) - TEMP_1_PIN
 #define TEMP_BED_PIN                    P0_25_A2  // A0 (T0) - (67) - TEMP_BED_PIN
 
 //
