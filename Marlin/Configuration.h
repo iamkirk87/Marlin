@@ -109,11 +109,7 @@
  * Currently Ethernet (-2) is only supported on Teensy 4.1 boards.
  * :[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-<<<<<<< HEAD
 #define SERIAL_PORT_2 -1
-=======
-//#define SERIAL_PORT_2 -1
->>>>>>> parent of 4c5c46cf02 (Merge remote-tracking branch 'upstream/2.0.x' into 2.0.x)
 
 /**
  * This setting determines the communication speed of the printer.
@@ -124,11 +120,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-<<<<<<< HEAD
 #define BAUDRATE 115200
-=======
-#define BAUDRATE 250000
->>>>>>> parent of 4c5c46cf02 (Merge remote-tracking branch 'upstream/2.0.x' into 2.0.x)
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -752,11 +744,7 @@
 //#define Z2_DRIVER_TYPE A4988
 //#define Z3_DRIVER_TYPE A4988
 //#define Z4_DRIVER_TYPE A4988
-<<<<<<< HEAD
 #define E0_DRIVER_TYPE TMC2208
-=======
-#define E0_DRIVER_TYPE A4988
->>>>>>> parent of 4c5c46cf02 (Merge remote-tracking branch 'upstream/2.0.x' into 2.0.x)
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
@@ -1246,11 +1234,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-<<<<<<< HEAD
 #define Z_MAX_POS 180
-=======
-#define Z_MAX_POS 200
->>>>>>> parent of 4c5c46cf02 (Merge remote-tracking branch 'upstream/2.0.x' into 2.0.x)
 
 /**
  * Software Endstops
